@@ -1,26 +1,35 @@
-body{
+*{
   margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+body{
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   text-align: center;
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
 }
 
 h1{
-  margin: 0;
-  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .input{
   border: 1px solid #333;
   border-radius: 0.3em;
-  padding: 0.25rem;
-  width: 7em;
+  padding: 0.5rem;
 }
 
 select {
   margin-left: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
 }
 
 .equals{
